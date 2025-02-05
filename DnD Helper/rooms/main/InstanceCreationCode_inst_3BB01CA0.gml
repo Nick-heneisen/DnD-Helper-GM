@@ -1,1 +1,0 @@
-thisButtonType = buttonType.roll;
