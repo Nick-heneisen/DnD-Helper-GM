@@ -5,8 +5,8 @@
   "managed":true,
   "name":"o_attack_button",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"thisButtonType","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"buttonType.triggerButton",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"triggerType","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"attack",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"screenPage","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_screen.attack_page",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"creates","path":"objects/o_button_parent/o_button_parent.yy",},"resource":{"name":"o_attack_roll","path":"objects/o_attack_roll/o_attack_roll.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_attack_roll",},
   ],
   "parent":{
     "name":"Objects",

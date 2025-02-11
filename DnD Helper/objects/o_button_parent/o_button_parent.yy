@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_button_parent",
@@ -27,9 +28,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"thisButtonType","filters":[],"listItems":[],"multiselect":false,"name":"thisButtonType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"buttonType.defaultType","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"roomtToGoTo","filters":[],"listItems":[],"multiselect":false,"name":"roomtToGoTo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"triggerType","filters":[],"listItems":[],"multiselect":false,"name":"triggerType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"thisButtonType","filters":[],"listItems":[],"multiselect":false,"name":"thisButtonType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"buttonType.normal","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"screenPage","filters":[],"listItems":[],"multiselect":false,"name":"screenPage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"isTrigger","filters":[],"listItems":[],"multiselect":false,"name":"isTrigger","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"creates","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"creates","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"dieType","filters":[],"listItems":[],"multiselect":false,"name":"dieType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

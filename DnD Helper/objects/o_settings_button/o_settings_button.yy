@@ -4,9 +4,7 @@
   "eventList":[],
   "managed":true,
   "name":"o_settings_button",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"thisButtonType","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"buttonType.settingsButton",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

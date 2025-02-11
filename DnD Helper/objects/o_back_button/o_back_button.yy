@@ -5,7 +5,7 @@
   "managed":true,
   "name":"o_back_button",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"thisButtonType","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"buttonType.backButton",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"screenPage","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_screen.main_page",},
   ],
   "parent":{
     "name":"Objects",

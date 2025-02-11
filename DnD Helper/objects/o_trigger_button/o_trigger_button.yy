@@ -5,8 +5,8 @@
   "managed":true,
   "name":"o_trigger_button",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"roomtToGoTo","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"trigger",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"thisButtonType","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"buttonType.mainButton",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"screenPage","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_screen.trigger_page",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"isTrigger","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"Objects",

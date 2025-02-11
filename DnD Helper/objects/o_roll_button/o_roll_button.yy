@@ -5,8 +5,7 @@
   "managed":true,
   "name":"o_roll_button",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"roomtToGoTo","path":"objects/o_button_parent/o_button_parent.yy",},"resource":{"name":"roll","path":"rooms/roll/roll.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"roll",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"thisButtonType","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"buttonType.mainButton",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"screenPage","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_screen.roll_page",},
   ],
   "parent":{
     "name":"Objects",
