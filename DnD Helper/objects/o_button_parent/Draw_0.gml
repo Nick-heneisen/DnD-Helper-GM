@@ -9,6 +9,8 @@ if thisButtonType == buttonType.blank {
 	
 	draw_self();
 	
+	if text == undefined { show_debug_message("ERROR IN TEXT FILE!! (no name)") return; }
+	
 	if !isHovered { draw_text_color(_text_x, _text_y, text, textColor, textColor, textColor, textColor, 1); }
 			 else { draw_text_color(_text_x, _text_y + 4, text, textColor, textColor, textColor, textColor, 1); }
 	

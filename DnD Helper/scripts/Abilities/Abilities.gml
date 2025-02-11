@@ -1,7 +1,7 @@
 
 function getAbilitiesFromFile() {
 	
-var _file = file_text_open_read("abilities.imgayasfuck");
+var _file = file_text_open_read("abilities.txt");
 	var _textLine = file_text_read_string(_file);
 
 	while (_textLine != "")  {

@@ -1,6 +1,6 @@
 randomize();
 //
-var file = file_text_open_write("abilities.imgayasfuck");
+var file = file_text_open_append("abilities.txt");
 file_text_close(file);
 
 global.font_main = font_add_sprite(s_font, 32, true, 2);
