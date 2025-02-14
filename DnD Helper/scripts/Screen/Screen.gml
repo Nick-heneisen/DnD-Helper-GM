@@ -39,7 +39,6 @@ function changePage(page) {
 		}
 		
 		if instance_exists(o_damage_roll) instance_destroy(o_damage_roll);
-		if instance_exists(o_attack_roll) instance_destroy(o_attack_roll);
 	
 		//add new ones
 		drawPage(page);

@@ -1,5 +1,6 @@
 
 if thisButtonType == buttonType.blank {
+	draw_set_halign(fa_left);
 	
 	var _text_width = string_width(text);
 	var _text_x = x + (hCusion / 2);

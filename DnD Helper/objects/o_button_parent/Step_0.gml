@@ -28,6 +28,12 @@ if position_meeting(mouse_x, mouse_y, self) {
 				}
 			}
 		}
+		
+		if isAbility {
+			ds_map_add(global.ActiveAbilities, text, ds_map_find_value(global.AbilitiesMap, text));
+			ds_map_delete(global.AvailableAbilities, text);
+			
+		}
 	}
 
 } else {

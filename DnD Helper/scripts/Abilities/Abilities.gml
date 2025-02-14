@@ -1,5 +1,5 @@
 
-function getAbilitiesFromFile() {
+function getAbilitiesFromFile(dsMap) {
 	
 var _file = file_text_open_read("abilities.txt");
 	var _textLine = file_text_read_string(_file);
@@ -34,7 +34,7 @@ var _file = file_text_open_read("abilities.txt");
 
 		}
 		
-		ds_map_add(global.AbilitiesMap, _ability, _tag);
+		ds_map_add(dsMap, _ability, _tag);
 		file_text_readln(_file)
 		_textLine = file_text_read_string(_file);
 	}
@@ -45,7 +45,7 @@ var _file = file_text_open_read("abilities.txt");
 function pickThree() {
 	
 	var _tempMap = ds_map_create();
-	ds_map_copy(_tempMap, global.AbilitiesMap);
+	ds_map_copy(_tempMap, global.AvailableAbilities);
 	var _abilityOptions = [];
 	
 	var _abilityToAdd = ds_map_find_first(_tempMap);
@@ -62,6 +62,7 @@ function pickThree() {
 	}
 	
 	global.AbilityOptions = _abilityOptions;
+	ds_map_destroy(_tempMap);
 }
 
 function toColor(color_string) {

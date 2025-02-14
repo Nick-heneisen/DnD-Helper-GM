@@ -109,34 +109,52 @@ damage_page = {
 	d4_button : 
 	{
 		button_id : -1,
-		_x : 128,
-		_y : 32,
+		_x : 96,
+		_y : 48,
 		object : o_d4_button
 	},
 	
 	d6_button : 
 	{
 		button_id : -1,
-		_x : 128,
-		_y : 80,
+		_x : 160,
+		_y : 48,
 		object : o_d6_button
 	},
 	
 	d8_button : 
 	{
 		button_id : -1,
-		_x : 128,
-		_y : 128,
+		_x : 96,
+		_y : 96,
 		object : o_d8_button
 	},
 	
 	d10_button : 
 	{
 		button_id : -1,
-		_x : 128,
-		_y : 176,
+		_x : 160,
+		_y : 96,
 		object : o_d10_button
 	},
+	
+	d12_button : 
+	{
+		button_id : -1,
+		_x : 96,
+		_y : 144,
+		object : o_d12_button
+	},
+	
+	d100_button : 
+	{
+		button_id : -1,
+		_x : 160,
+		_y : 144,
+		object : o_d100_button
+	},
+	
+	
 	
 }
 	

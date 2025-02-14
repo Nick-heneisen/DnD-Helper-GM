@@ -1,0 +1,2 @@
+activeMap = global.ActiveAbilities;
+
