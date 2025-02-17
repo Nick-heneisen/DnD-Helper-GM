@@ -8,8 +8,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_button_parent","path":"objects/o_button_parent/o_button_parent.yy",},"propertyId":{"name":"screenPage","path":"objects/o_button_parent/o_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_screen.main_page",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"buttons",
+    "path":"folders/Objects/buttons.yy",
   },
   "parentObjectId":{
     "name":"o_button_parent",

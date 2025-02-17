@@ -6,8 +6,8 @@
   "name":"o_settings_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"buttons",
+    "path":"folders/Objects/buttons.yy",
   },
   "parentObjectId":{
     "name":"o_button_parent",
